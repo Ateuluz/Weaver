@@ -30,6 +30,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  riverpod: ^2.5.1
+  flutter_riverpod: ^2.5.1
+  drift: ^2.18.0
+  drift_flutter: ^0.2.4
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+  uuid: ^4.4.0
+  equatable: ^2.0.5
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -39,7 +47,10 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  build_runner: ^2.4.9
   # The "flutter_lints" package below contains a set of recommended lints to
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint

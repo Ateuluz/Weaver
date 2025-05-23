@@ -72,7 +72,7 @@ Managed by `useViewportManager` hook.
 *   `scale: number`: Current zoom level (logarithmic, e.g., 0.02 to 1.2).
 *   `offsetX: number`, `offsetY: number`: Screen pixel offsets for panning.
 
-## 3. Application Architecture (High-Level)
+## 3. Application Architecture (High-Level) (Obsolete for mobile app, needs adjustment)
 
 *   **Frontend:** Next.js, React, TypeScript, ShadCN UI components, Tailwind CSS.
 *   **State Management:** React hooks (`useState`, `useCallback`, `useEffect`, `useMemo`, `useRef`) and custom hooks for modularity.
@@ -84,7 +84,7 @@ Managed by `useViewportManager` hook.
 
 ## 4. Key Functionalities & Algorithms
 
-### 4.1. Node Management (`src/app/page.tsx`, dialogs)
+### 4.1. Node Management (`src/app/page.tsx`, dialogs; update files)
 
 #### Node Creation
 *   **Triggers:** "Create New Node" button or quick press on canvas background.
@@ -199,7 +199,7 @@ Managed by `interactionMode` state in `page.tsx` and logic within `useNodeIntera
 *   Tailwind CSS.
 *   Dark theme defined with CSS HSL variables.
 
-## 7. Termux Setup (`termux_setup` folder)
+## 7. Termux Setup (`termux_setup` folder) (Obsolete for mobile app)
 *   Scripts and README provided for running the application on Android via Termux, including:
     *   `install_deps.sh`: Installs Node.js, npm, git.
     *   `start_nodeweaver.sh`: Runs the Next.js dev server, configured for network access (`-H 0.0.0.0 -p 9002`), and attempts to auto-open URL.
@@ -207,4 +207,6 @@ Managed by `interactionMode` state in `page.tsx` and logic within `useNodeIntera
 
 This documentation should provide a solid overview for understanding and potentially re-implementing the Node Weaver application.
 
-    
+### Disclaimers
+
+> All web app references are to be updated to flutter mobile app equivalent of the resulting app. 
